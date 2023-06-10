@@ -26,3 +26,40 @@ header {
   align-items: center;
 }
 
+.logo {
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+span {
+  margin-right: 10px;
+}
+
+a {
+  color: #eee;
+}
+
+#mission {
+  background-image: url('images/img-mission-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.mission-items {
+  margin: auto;
+  align-items: center;
+  background-color: #000;
+}
+
+.mission-statement {
+  margin: 10px;
+}
