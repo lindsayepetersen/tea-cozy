@@ -1,4 +1,8 @@
 /* UNIVERSAL STYLES */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "Helvetica", sans-serif;
@@ -10,6 +14,11 @@ body {
 
 a {
   color: seashell;
+}
+
+a:hover {
+  color: rgb(206, 188, 176);
+  transition: 250ms;
 }
 
 h2, 
@@ -82,6 +91,14 @@ nav span {
   margin: auto;
   padding-top: 70px;
 }
+
+.flex-container.items {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .item {
   padding: 5px;
 }
